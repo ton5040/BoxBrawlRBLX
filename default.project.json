@@ -1,0 +1,25 @@
+{
+  "name": "BoxBrawl",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Modules": { "$path": "src/shared/Modules" }
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "LocalScripts": {
+          "$path": "src/client"
+        }
+      }
+    },
+
+    "ServerScriptService": {
+      "$path": "src/server"
+    }
+  }
+}
